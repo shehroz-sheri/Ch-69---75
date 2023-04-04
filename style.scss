@@ -1,0 +1,91 @@
+$foot-bg : #1d3557;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+}
+
+main {
+    background-color: #f0fbefad;
+
+    p {
+        font-size: 0.9rem;
+    }
+
+    button {
+        background: #f0fbefad;
+    }
+
+    button:hover {
+        background: $foot-bg;
+        color: white;
+    }
+}
+
+#hostImg{
+    height: 250px;
+    background-image: url(./Assests/Screenshot\ 2023-04-01\ 180735.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#twoBtn {
+    padding: 22px 0;
+}
+
+#clear-btn-2:hover {
+    color: white;
+    background: $foot-bg;
+}
+
+#clear-btn {
+    font-size: 1px;
+}
+
+header,
+footer {
+    background-color: $foot-bg;
+}
+
+input {
+    border: 1px solid #6c757d62;
+    padding: 0 15px;
+    border-radius: 3px;
+}
+
+input:focus {
+    // outline: 2px solid #1d3557;
+    outline: none;
+    box-shadow: 0 0 3px $foot-bg;
+    -moz-box-shadow: 0 0 3px $foot-bg;
+    -webkit-box-shadow: 0 0 3px $foot-bg;
+}
+
+input[type = "submit"]:focus{
+    outline: none;
+    box-shadow: none;
+}
+
+// input:focus {
+//     outline: none;
+//     padding: 0 11px;
+//     border-left: 5px solid $foot-bg;
+// }
+
+
+#originalString {
+    background: $foot-bg;
+    color: white;
+    padding: 13px;
+}
+
+#result-box {
+    text-align: center;
+    min-height: 120px;
+    padding: 8px 5px;
+}
